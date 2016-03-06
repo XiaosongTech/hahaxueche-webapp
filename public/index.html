@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>哈哈学车</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="jspm_packages/github/twbs/bootstrap@3.3.6/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.css">
+</head>
+<body data-ng-controller="AppCtrl as app" >
+
+  <div ui-view>
+  </div>
+
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    /* global System */
+    System.import('main');
+  </script>
+
+</body>
+</html>
