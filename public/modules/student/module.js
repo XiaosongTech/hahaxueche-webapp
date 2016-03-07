@@ -30,7 +30,7 @@ let StudentModule = angular.module('StudentModule', [
   .config(['$stateProvider', function($stateProvider) {
     $stateProvider
       .state('student', {
-        url: '/student',
+        url: '/about/student',
         controller: 'StudentCtrl',
         templateUrl: path + 'views/student.html',
         controllerAs: 'vm'

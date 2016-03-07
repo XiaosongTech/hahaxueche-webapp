@@ -30,7 +30,7 @@ let CoachModule = angular.module('CoachModule', [
   .config(['$stateProvider', function($stateProvider) {
     $stateProvider
       .state('coach', {
-        url: '/coach',
+        url: '/about/coach',
         controller: 'CoachCtrl',
         templateUrl: path + 'views/coach.html',
         controllerAs: 'vm'
